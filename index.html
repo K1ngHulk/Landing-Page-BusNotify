@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusNotify - Servicio de Notificaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo BusNotify" id="logo-img">
+                <span>BusNotify</span>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contáctanos</a></li>
+                </ul>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>BusNotify</h1>
+                    <p class="slogan">Mantente informado sobre tu transporte en tiempo real</p>
+                    <a href="#contacto" class="cta-button">Cotizar Ahora</a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/hero-image.svg" alt="BusNotify App">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Nosotros -->
+    <section id="nosotros" class="about">
+        <div class="container">
+            <h2 class="section-title">Nosotros</h2>
+            <div class="about-content">
+                <div class="mission-vision">
+                    <div class="mission">
+                        <h3>Misión</h3>
+                        <p>La misión de BusNotify es brindar modernidad al transporte público mediante soluciones tecnológicas que sean accesibles e inteligentes que fortalezcan la comunicación entre pasajeros y conductores. 
+                            Al mismo tiempo, ayuda a brindar información valiosa sobre el uso del sistema para mejorar su planificación. 
+                            Buscamos ofrecer una experiencia más segura, cómoda y eficiente, y a la vez impulsamos una gestión más inteligente del transporte basada en datos reales.</p>
+                    </div>
+                    <div class="vision">
+                        <h3>Visión</h3>
+                        <p>Nuestra visión es convertirnos en los referentes de soluciones tecnológicas para el transporte público urbano, promoviendo una movilidad más segura e inclusiva.
+                           Aspiramos que BusNotify se implemente en diversas ciudades, mejorando la calidad del servicio de transporte para miles de usuarios y contribuyendo a la transformación digital del sector. 
+                           A largo plazo, buscamos integrar nuevas tecnologías para optimizar rutas, evitar retrasos en tiempos de paradas y elevar la calidad del servicio en tiempo real a través del análisis inteligente de datos.</p>
+                    </div>
+                </div>
+                <div class="team">
+                    <h3>Nuestro Equipo</h3>
+                    <div class="team-members">
+                        <div class="member">
+                            <img src="img/team-1.svg" alt="Miembro del equipo 1">
+                            <h4>Mateo Paolo Salazar Miranda</h4>
+                            <p>Ingeniero de Software</p>
+                        </div>
+                        <div class="member">
+                            <img src="img/team-2.svg" alt="Miembro del equipo 2">
+                            <h4>Mathias Javier Murillo</h4>
+                            <p>Ingeniero de Software</p>
+                        </div>
+                        <div class="member">
+                            <img src="img/team-3.svg" alt="Miembro del equipo 3">
+                            <h4>Melisa Geraldine Sulca Silva</h4>
+                            <p>Ingeniero de Software</p>
+                        </div>
+                        <div class="member">
+                            <img src="img/team-4.svg" alt="Miembro del equipo 4">
+                            <h4>Manuel Ignacio Tumi Oliden</h4>
+                            <p>Ingeniero de Software</p>
+                        </div>
+                        <div class="member">
+                            <img src="img/team-5.svg" alt="Miembro del equipo 5">
+                            <h4>Ernesto Rodas Sotomayor</h4>
+                            <p>Ingeniero de Software</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Servicios</h2>
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="img/service.svg" alt="Servicio de Notificaciones">
+                </div>
+                <div class="service-text">
+                    <h3>Notificaciones en Tiempo Real</h3>
+                    <p>Sistema embarcado con sensores táctiles y de presencia para solicitar paradas, mejorar la comunicación con el conductor y contar pasajeros. Ofrece datos útiles a operadores de transporte para optimizar rutas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <div class="contact-form">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="empresa">Nombre de la Empresa</label>
+                        <input type="text" id="empresa" name="empresa" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="ruc">RUC</label>
+                        <input type="text" id="ruc" name="ruc" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" id="correo" name="correo" required>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>BusNotify</h3>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="footer-contact">
+                    <p><i class="fas fa-phone"></i> +51 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> contacto@busnotify.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Lima, Perú</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Términos y Condiciones</a>
+                    <a href="#">Seguridad y Privacidad</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BusNotify. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

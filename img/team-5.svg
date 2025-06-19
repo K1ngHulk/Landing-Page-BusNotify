@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Fondo circular -->
+  <circle cx="100" cy="100" r="90" fill="#f39c12" />
+  
+  <!-- Silueta de persona -->
+  <!-- Cabeza -->
+  <circle cx="100" cy="70" r="40" fill="#ecf0f1" />
+  
+  <!-- Cuerpo -->
+  <path d="M60 140 Q100 180, 140 140 L140 200 L60 200 Z" fill="#ecf0f1" />
+  
+  <!-- Detalles de la cara -->
+  <!-- Ojos -->
+  <circle cx="85" cy="65" r="5" fill="#2c3e50" />
+  <circle cx="115" cy="65" r="5" fill="#2c3e50" />
+  
+  <!-- Sonrisa -->
+  <path d="M80 85 Q100 100, 120 85" stroke="#2c3e50" stroke-width="3" fill="none" />
+  
+  <!-- Cabello -->
+  <path d="M60 30 L140 30 L140 70 C120 60, 80 60, 60 70 Z" fill="#2c3e50" />
+  
+  <!-- Auriculares -->
+  <path d="M60 60 C50 60, 50 80, 60 80" stroke="#2c3e50" stroke-width="3" fill="none" />
+  <path d="M140 60 C150 60, 150 80, 140 80" stroke="#2c3e50" stroke-width="3" fill="none" />
+  <path d="M60 60 L140 60" stroke="#2c3e50" stroke-width="3" fill="none" />
+  
+  <!-- Detalles profesionales -->
+  <rect x="55" y="120" width="90" height="20" rx="5" ry="5" fill="#d35400" />
+  <text x="100" y="135" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Marketing Manager</text>
+</svg>
